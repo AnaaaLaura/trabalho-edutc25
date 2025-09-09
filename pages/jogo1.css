@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: url(./imagens-jogo/Fuga\ Gelada.png) center/cover no-repeat fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+.titulo img{
+    border:none;
+    right: 28rem;
+    position: absolute;
+    background: transparent;
+    height: 100%;
+    bottom: 15rem;
+    position: fixed;
+   
+}
+
+p{
+    font-family: 'Cloud Condensed', sans-serif;
+    color: #4a7aa7;
+    text-shadow:
+       0.125rem 0.125rem 0 white,
+      -0.125rem 0.125rem 0 white,
+       0.125rem -0.125rem 0 white,
+      -0.125rem -0.125rem 0 white,
+       0 0.125rem 0 white,
+       0.125rem 0 0 white,
+       0 -0.125rem 0 white,
+      -0.125rem 0 0 white;
+
+      padding-left: 50rem;
+      padding-top: 54rem;
+      font-size: 2.3rem;
+      font-weight: 600;
+      left: 1rem;
+      position: fixed;
+    }
+
+.iniciar img{
+    top: 8rem;
+    left: 12rem;
+    background: transparent;
+    cursor: pointer;
+    height: 75%;
+    position: fixed;
+
+}
+
+.sair img {
+    top: 27rem;
+    left: 67rem;
+    background: transparent;
+    cursor: pointer;
+    height: 93%;
+    position: fixed;
+}
