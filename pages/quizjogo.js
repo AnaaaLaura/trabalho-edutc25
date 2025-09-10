@@ -13,7 +13,7 @@ const questions = [
         answers: [
             { id: 1, text: "Redução de ondas de calor e aumento do frio.", correct: false },
             { id: 2, text: "Estabilidade climática e melhora na saúde humana.", correct: false },
-            { id: 3, text: "Estudo Temperatura até 2 °C maior, mais secas, enchentes e calor extremo. números", correct: true },
+            { id: 3, text: "Temperatura até 2 °C maior, mais secas, enchentes e calor extremo.", correct: true },
             { id: 4, text: "Aumento do frio e diminuição de enchentes.", correct: false },
         ],
     },
@@ -27,12 +27,12 @@ const questions = [
         ],
     },
     {
-        question: "Ártico: Qual é o papel da educação climática?",
+        question: "Ártico: Quais medidas e fatores estão relacionados ao aquecimento global?",
         answers: [
-            { id: 1, text: "Aumentar a produtividade agrícola e reduzir os custos de produção.", correct: false },
-            { id: 2, text: "Eliminar a necessidade de participação de governos e ONGs.", correct: false },
-            { id: 3, text: "Promover a compreensão do clima e decisões conscientes para a sustentabilidade.", correct: true },
-            { id: 4, text: "Garantir apenas a preservação de florestas tropicais.", correct: false },
+            { id: 1, text: "Gases como COz, CH4 e N2O aumentam o efeito estufa, e o Acordo de Paris busca limitar o aquecimento a 1,5 °C.", correct: true },
+            { id: 2, text: "Oxigênio e nitrogênio são gases do efeito estufa, e o Tratado de Versalhes limita a temperatura global.", correct: false },
+            { id: 3, text: "Gases como He e Ar provocam aquecimento, e o Protocolo de Montreal limita a emissão de gases.", correct: false },
+            { id: 4, text: "Hidrogênio e vapor de água causam efeito estufa, e o Protocolo de Kyoto controla a temperatura.", correct: false },
         ],
     },
     {
@@ -130,8 +130,25 @@ function selectAnswer(e) {
 
 function showScore() {
     resetState();
-    questionElement.innerHTML = `Você acertou ${score} de ${questions.length}!`;
+
+    const box = document.querySelector('.box');
+    box.classList.add('final-box');
+
+    questionElement.innerHTML = `
+    <div class="titulo-final">
+    <h2>Obrigada por ajudar!
+    Ártico é grato por seu esforço...</h2>
+    </div>
+    
+    <div class="final-container">
+        <h2 class="final-title">🎉 Parabéns! 🎉</h2>
+        <p class="final-score">Você acertou <strong>${score}</strong> de <strong>${questions.length}</strong> perguntas.</p>
+    </div>
+`;
+    document.body.style.backgroundImage = "url('imagens-jogo/Fuga Gelada (8).svg')";
     nextButton.innerHTML = "Voltar ao inicio";
+    nextButton.style.display = "block";
+    nextButton.style.margin = "0 auto";
     nextButton.style.display = "block";
     nextButton.addEventListener("click", () => {
         window.location.href = "jogo1.html";

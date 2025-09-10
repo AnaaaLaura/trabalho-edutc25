@@ -56,7 +56,7 @@ body {
   color: white;
   border: none;
   border-radius: 12px;
-  padding: 12px 20px;
+  padding: 20px 50px;
   margin: 10px 0;
   font-size: 1rem;
   font-weight: bold;
@@ -88,7 +88,8 @@ body {
   border: none;
   padding: 12px 24px;
   font-size: 1rem;
-  border-radius: 10px;
+  border-radius: 30px;
+  font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -105,4 +106,17 @@ body {
 .incorrect {
   background-color: #FF0000 !important; 
   color: white;
+}
+
+.box.final-box {
+  background-color:hsl(212, 39%, 72%) ; 
+  border-radius: 50px;
+  max-width: 30rem;
+  border: solid white;
+  align-items: center;
+  
+}
+
+.box.final-box h2, p {
+  color: #fff;
 }

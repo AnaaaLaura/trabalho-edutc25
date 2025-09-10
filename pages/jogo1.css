@@ -4,6 +4,19 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+body {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top center; /* <- aqui */
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    margin-right: 280px;
+    margin-top: -20px;
+  }
 
 body {
     background: url(./imagens-jogo/Fuga\ Gelada.png) center/cover no-repeat fixed;

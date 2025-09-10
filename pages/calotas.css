@@ -5,6 +5,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+.ancora a {
+    max-width: 12rem;
+}
+
 main {
     background-color: #E8E7D2;
     height: 67rem;

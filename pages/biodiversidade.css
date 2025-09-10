@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+.ancora a {
+    max-width: 12rem;
+}
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
