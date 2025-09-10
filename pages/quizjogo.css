@@ -113,8 +113,9 @@ body {
   border-radius: 50px;
   max-width: 30rem;
   border: solid white;
-  align-items: center;
-  
+  margin-right: 25rem;
+  margin-top: 31rem;
+ 
 }
 
 .box.final-box h2, p {
