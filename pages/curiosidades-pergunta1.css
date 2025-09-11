@@ -183,10 +183,6 @@ body {
     overflow: hidden;       /* ← IMPRENSÁVEL PARA CORTAR ESPAÇOS FANTASMAS */
   }
 
-.tudo {
-    outline: 2px solid red;
-}
-
 .primeiro-paragrafo {
     display: flex;
     border-bottom: 1px solid #000000;
