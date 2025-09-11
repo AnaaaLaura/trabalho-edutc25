@@ -164,7 +164,7 @@ body {
 .h2 {
     color: #202E13;
     font-size: 1.875rem;
-    margin-left: 7rem;
+    margin-left: 4rem;
     font-size: 3rem;
 }
 
@@ -173,31 +173,42 @@ body {
     
 }
 .img-principal{
-    margin-left: 6rem;
+    margin-left: 3rem;
     padding-bottom:2rem ;
 
 }
 
+.primeiro-paragrafo img {
+    margin-left: 10rem;
+
+}
+
+
+
 .tudo {
     display: flex;
     gap: 12rem;
+
 }
 
 .primeiro-paragrafo {
     display: flex;
     border-bottom: 1px solid #000000;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    
 }
 
 .primeiro-paragrafo p {
     font-weight: bold;
     color: #202E13;
+
 }
 
 .Segundo-paragrafo {
     display: flex;
     border-bottom: 1px solid #000000;
-    font-size: 1rem;
+    font-size: 1.2rem;
+   
 }
 
 .Segundo-paragrafo p{

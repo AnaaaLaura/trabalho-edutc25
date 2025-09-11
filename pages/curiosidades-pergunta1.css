@@ -158,10 +158,12 @@ body {
     background-color: #E1EDEE;
 }
 
+
+
 .h2 {
     color: #202E13;
     font-size: 1.875rem;
-    margin-left: 9rem;
+    margin-left: 4rem;
     font-size: 3rem;
 }
 
@@ -170,20 +172,25 @@ body {
     
 }
 .img-principal{
-    margin-left: 8rem;
+    margin-left: 3rem;
     padding-bottom:2rem ;
 
 }
-
 .tudo {
     display: flex;
-    gap: 4rem;
+    gap: 8rem;
+    align-items: flex-start;
+    overflow: hidden;       /* ← IMPRENSÁVEL PARA CORTAR ESPAÇOS FANTASMAS */
+  }
+
+.tudo {
+    outline: 2px solid red;
 }
 
 .primeiro-paragrafo {
     display: flex;
     border-bottom: 1px solid #000000;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 .primeiro-paragrafo p {
@@ -194,7 +201,7 @@ body {
 .Segundo-paragrafo {
     display: flex;
     border-bottom: 1px solid #000000;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .Segundo-paragrafo p{
@@ -207,7 +214,7 @@ body {
     gap: 1rem;
     padding-top: 7rem;
     margin-left: 7rem;
-    margin-bottom: 4rem;
+    
 }
 /* ========== FOOTER ========== */
 footer {
@@ -274,10 +281,14 @@ footer {
 }
 
 .footer-copyright p {
-    padding: 2rem
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1.0rem;
 }
 
 .footer-contacts {
     margin-right: 14.375rem;
+
 }
+
 
